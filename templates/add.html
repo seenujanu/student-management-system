@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Add Student</h3>
+<form method="post" class="row g-3">
+  <div class="col-md-6"><input class="form-control" name="name" placeholder="Name" required></div>
+  <div class="col-md-6"><input class="form-control" name="roll" placeholder="Roll"></div>
+  <div class="col-md-6"><input class="form-control" name="class" placeholder="Class"></div>
+  <div class="col-md-6"><input class="form-control" name="phone" placeholder="Phone"></div>
+  <div class="col-md-6"><input class="form-control" name="email" placeholder="Email"></div>
+  <div class="col-md-12"><textarea class="form-control" name="address" placeholder="Address"></textarea></div>
+  <div class="col-12"><button class="btn btn-primary">Save</button></div>
+</form>
+{% endblock %}
